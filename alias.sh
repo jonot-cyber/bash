@@ -154,6 +154,9 @@ alias pirm="podman image rm"
 alias prit="podman container run -it"
 alias pr="podman container run -it --rm"
 
+# ideas
+alias idear="ls ~/.local/share/ideas | shuf -n 1"
+
 # others
 alias fzfe="e \$(fzf)"
 alias wcl="wc -l"
